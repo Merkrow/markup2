@@ -239,28 +239,46 @@ ul {
 	color: white;
 	width: 200px;
 	padding: 0 32px;
-	position: absolute;
-	top: 48%;
-	transform: translate(0, -50%);
+	float: left;
 }
 .ads {
 	width: 435px;
-	position: absolute;
-	top: 52%;
+	float: right;
 	line-height: 19px;
-    transform: translate(0, -74%);
-    left: 37%;
+	margin: 8px 30px 0 0;
 }
 .banner-text {
 	background: rgb(174,59,68);
 	width: 740px;
 	position: relative;
 }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.'; 
+}
+.ads p {
+	margin-bottom: 0;
+}
 .topic h2 {
 	font-size: 24px;
 	font-weight: 100 !important;
 }
+.ads a {
+	color: black;
+}
+.ads a:hover {
+	color: #fff;
+}
 
+.ads h5 {
+	font: 12px Arial;
+	line-height: 28px;
+	margin: 0;
+}
 .main {
 	display: flex;
 	width: 980px;
