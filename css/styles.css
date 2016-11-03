@@ -70,19 +70,13 @@ html {
 
 .logo h2 {
 	font: 37px Arial;
-	font-weight: bold;
+	font-weight: 400;	
 	display: inline;
 	color: black;
 	letter-spacing: -1px;
 	padding-left: 23px;
 }
-.logo h3 {
-	font: 37px Arial;
-	font-weight: lighter;
-	display: inline;
-	color: black;
-	letter-spacing: -1.3px;
-}
+
 .menu {
 	float: right;
 	width: 600px;
@@ -266,15 +260,12 @@ ul {
 	font-size: 24px;
 	font-weight: 100 !important;
 }
-#main-wrap {
-	background-color: #f4f7f8;
-	line-height: 1.22;
-}
-#main {
+
+.main {
 	display: flex;
 	width: 980px;
 }
-#sidebar {
+.sidebar {
 	width: 245px;
 	border-right: 2px solid #dcdcdc;
 	padding-top: 35px;
@@ -300,15 +291,15 @@ sidebar li{
 	color: #000;
 	font: 12px Arial, Helvetica, sans-serif;
 }
-#sidebar a {
+.sidebar a {
 	display: block;
 	padding-top: 0; 
 }
-#sidebar ul.listopen li:hover {
+.sidebar ul.listopen li:hover {
 	color: #ae3b44;
 }
 
-#sidebar li:active {
+.sidebar li:active {
 	background-color: #ae3b44;
 	color: #fff;
 }
@@ -319,7 +310,7 @@ sidebar li{
 .actingblack {
 	color: #000;
 }
-#sidebar nav > div {
+.sidebar nav > div {
 	background: url(../images/dashed_bg.png);
 }
 .arrow {
@@ -370,7 +361,7 @@ sidebar li{
 	padding-left: 45px;
 	background-color: #eaeaea;
 }
-#content {
+.content {
 	width: 735px;
 }
 
@@ -378,27 +369,27 @@ h1 {
 	font-weight: 200;
 	padding-top: 12px;
 }
-#content p {
+.content p {
 	text-align: justify;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 19px;
 }
-#content h3 {
+.content h3 {
 	padding: 3px 0 5px 0;
 	color: rgb(174,59,68);
 }
 .article {
 	padding: 0 0 0 34px;
 }
-#content .thesis p {
+.content .thesis p {
 	color: #909293;
 	font-size: 15px;
 	line-height: 21px;
 	padding-bottom: 19px;
 }
-#content .wholetext p {
+.content .wholetext p {
 	font-size: 12px;
 	line-height: 19px;
 }
@@ -449,7 +440,7 @@ figcaption {
 .block3 .afterbr {
 	padding-top: 5px;
 }
-#content .block3 h3 {
+.content .block3 h3 {
 	padding-top: 10px;
 }
 h1 {
@@ -524,7 +515,7 @@ h1 {
 .left:hover > .note {
 	display: block;
 }
-#content .note p {
+.content .note p {
 	font-size: 12px;
 	color: #fff;
 	text-align: center;
@@ -559,7 +550,7 @@ h1 {
 	line-height: 18px;
 	font-weight: 200;
 }
-#content {
+.content {
 	padding-bottom: 15px;
 }
 .arrow_round {
@@ -596,16 +587,16 @@ h1 {
 	border-width: 4px;
 	margin-top: -4px;
 }
-#clients {
+.clients {
 	display: flex;
 	height: 95px;
 }
-#clients div {
+.clients div {
 	width: 16.67%;
 	height: 95px;
 	position: relative;
 }
-#clients a {
+.clients a {
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -613,10 +604,10 @@ h1 {
 	transform: translate(-50%,-50%);
 	text-align: center;
 }
-#clients:first-child {
+.clients:first-child {
 	position: relative;
 }
-#clients h4 {
+.clients h4 {
 	position: absolute;
 	font-size: 14px;
 	margin: 0;
@@ -624,26 +615,26 @@ h1 {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-#clients h5 {
+.clients h5 {
 	position: absolute;
 	top: -10000px;
 }
-#main {
+.main {
 	border-bottom: 1px solid #dcdcdc;
 }
 
-#footer {
+.footer {
 	background-color: #f8f8f8;
 	border-top: 2px solid #dcdcdc;
 	display: flex;
 }
-#footer > div {
+.footer > div {
 	margin-top: 8px;
 }
-#footer h5{
+.footer h5{
 	color: #d1d1d1;
 }
-#footer h3 {
+.footer h3 {
 	color: #aaaaaa;
 	font-weight: 200;
 }
@@ -679,7 +670,7 @@ h1 {
 .copyright h5{
 	width: 200px;
 }
-#footer h5 {
+.footer h5 {
 	margin: 5px 0;
 	font-weight: 200;
 }
